@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ditels_send">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_250sdp"
+    android:src="@drawable/splash_screen"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:id="@+id/im"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+app:layout_constraintTop_toBottomOf="@id/im"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="@string/sentscssfiley"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/scsies"
+        android:textColor="#0B21DD"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scsies"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="@string/made"
+        android:id="@+id/mead"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textColor="#0B21DD"/>
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_100sdp"
+        android:background="#B0B6C3"
+        android:textAllCaps="false"
+        android:text="@string/pay"
+        android:textColor="#0B21DD"
+        android:textSize="@dimen/_20sdp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mead" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/pay"
+    android:text="@string/worinng"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:textSize="@dimen/_12sdp"
+    android:layout_marginStart="@dimen/_3sdp"
+    android:layout_marginEnd="@dimen/_3sdp"
+    android:padding="@dimen/_3sdp"
+    android:gravity="center"
+    android:id="@+id/worinng"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:textColor="#ff00"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

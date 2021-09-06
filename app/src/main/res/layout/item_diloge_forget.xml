@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:hint="@string/enter_your_email2"
+        android:id="@+id/edit_pass"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/mog"
+        android:text="@string/reset_the_password_lgin"
+        android:textAllCaps="false"
+        android:id="@+id/reest_pass"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_pass" />
+
+    <ProgressBar
+        android:id="@+id/pro_reest"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/reest_pass"
+        app:layout_constraintEnd_toEndOf="@+id/reest_pass"
+        app:layout_constraintStart_toStartOf="@+id/reest_pass"
+        app:layout_constraintTop_toTopOf="@+id/reest_pass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

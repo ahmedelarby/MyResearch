@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/vodafone"
+    android:title="فودافون كاش"/>
+    <item android:id="@+id/paypal"
+          android:title="paypal"/>
+    <item android:title="تحويل بنكي "
+        android:id="@+id/bank"/>
+    <item android:id="@+id/westrn"
+        android:title="ويسترن يونيون"/>
+
+</menu>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#BF78AEEF"
+    android:layout_height="match_parent"
+    tools:context=".NewWork">
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <TextView
+           android:layout_marginStart="@dimen/_5sdp"
+           android:layout_marginEnd="@dimen/_5sdp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/newwork"
+           android:textAllCaps="false"
+           android:textStyle="bold|italic"
+           android:textSize="@dimen/_30sdp"
+           android:gravity="center"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           android:id="@+id/textnew"
+           android:textColor="#0B4980"
+           android:layout_marginTop="@dimen/_10sdp"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/l1"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@id/textnew"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="Orientation" >
+           <TextView
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/number_reg"
+               android:textColor="#000000"
+               android:textSize="@dimen/_15sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:layout_marginStart="@dimen/_5sdp"/>
+           <EditText
+               android:inputType="number"
+               android:padding="@dimen/_5sdp"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/_50sdp"
+               android:textSize="@dimen/_15sdp"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:id="@+id/number_regst"/>
+
+
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/l2"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@id/l1"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="Orientation" >
+           <TextView
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/password"
+               android:textColor="#000000"
+               android:textSize="@dimen/_15sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:layout_marginStart="@dimen/_5sdp"/>
+           <EditText
+               android:inputType="number"
+               android:padding="@dimen/_5sdp"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/_50sdp"
+               android:textSize="@dimen/_15sdp"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:id="@+id/password"/>
+
+
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/l3"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@id/l2"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="Orientation" >
+           <TextView
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/subject"
+               android:textSize="@dimen/_15sdp"
+               android:textColor="#000000"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:layout_marginStart="@dimen/_5sdp"/>
+           <EditText
+               android:inputType="text"
+               android:padding="@dimen/_5sdp"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/_50sdp"
+               android:textSize="@dimen/_15sdp"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:id="@+id/subject"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/l5"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@id/l4"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="Orientation" >
+           <TextView
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/count_page"
+               android:textSize="@dimen/_15sdp"
+               android:textStyle="bold"
+               android:textColor="#000000"
+               android:textAllCaps="false"
+               android:layout_marginStart="@dimen/_5sdp"/>
+           <EditText
+               android:inputType="number"
+               android:padding="@dimen/_5sdp"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/_50sdp"
+               android:textSize="@dimen/_15sdp"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:id="@+id/page_count"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/l4"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@id/l3"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="Orientation" >
+           <TextView
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/file"
+               android:textColor="#000000"
+               android:textSize="@dimen/_15sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:layout_marginStart="@dimen/_5sdp"/>
+           <EditText
+               android:padding="@dimen/_5sdp"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/_50sdp"
+               android:textSize="@dimen/_15sdp"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textStyle="bold"
+               android:hint="اضغط مرتين لاختيار الملف"
+               android:textAllCaps="false"
+               android:id="@+id/file"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/l6"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@id/l5"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="Orientation" >
+           <TextView
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/count_words"
+               android:textSize="@dimen/_15sdp"
+               android:textStyle="bold"
+               android:textColor="#000000"
+               android:textAllCaps="false"
+               android:layout_marginStart="@dimen/_5sdp"/>
+           <EditText
+               android:inputType="number"
+               android:padding="@dimen/_5sdp"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/_50sdp"
+               android:textSize="@dimen/_15sdp"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:id="@+id/words_count"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/l7"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@id/l6"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="Orientation" >
+           <TextView
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/data_receved"
+               android:textSize="@dimen/_15sdp"
+               android:textStyle="bold"
+               android:textColor="#000000"
+               android:textAllCaps="false"
+               android:layout_marginStart="@dimen/_5sdp"/>
+           <EditText
+               android:hint="اضغط مرتين لتحديد تاريخ التسليم"
+               android:padding="@dimen/_5sdp"
+               android:gravity="center"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/_50sdp"
+               android:textSize="@dimen/_15sdp"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:id="@+id/type_recwest"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/l8"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@id/l7"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           tools:ignore="Orientation" >
+           <TextView
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/notes"
+               android:textSize="@dimen/_15sdp"
+               android:textStyle="bold"
+               android:textColor="#000000"
+               android:textAllCaps="false"
+               android:layout_marginStart="@dimen/_5sdp"/>
+           <EditText
+               android:inputType="text"
+               android:padding="@dimen/_5sdp"
+               android:layout_marginTop="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/_70sdp"
+               android:textSize="@dimen/_15sdp"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:id="@+id/anythink"/>
+
+       </LinearLayout>
+
+       <TextView
+           android:id="@+id/taklfa"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="@dimen/_40sdp"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:layout_marginBottom="@dimen/_5sdp"
+           android:text="@string/price"
+           android:textColor="#000000"
+           android:textAllCaps="false"
+           android:textSize="@dimen/_17sdp"
+           android:textStyle="bold"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/l8" />
+
+       <Button
+           android:layout_width="@dimen/_100sdp"
+           android:layout_height="@dimen/_50sdp"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:layout_marginEnd="@dimen/_40sdp"
+           android:layout_marginBottom="@dimen/_5sdp"
+           android:text="@string/send"
+           android:textColor="#040303"
+           android:background="@drawable/itembtnrec"
+           android:textAllCaps="false"
+           android:textSize="@dimen/_20sdp"
+           android:textStyle="bold"
+           android:id="@+id/send"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/l8" />
+
+
+<ProgressBar
+    android:layout_width="@dimen/_60sdp"
+    android:layout_height="@dimen/_60sdp"
+    android:id="@+id/pro"
+    android:visibility="gone"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

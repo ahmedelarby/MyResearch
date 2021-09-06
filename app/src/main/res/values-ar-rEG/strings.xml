@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أبحاثي</string>
+    <string name="enter_your_email">ادخل البريد الالكتروني </string>
+    <string name="enter_your_password">ادخل كلمه السر</string>
+    <string name="forget_password"> هل نسيت كلمه السر...?</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="create_new_account">انشاء حساب جدبد...?</string>
+    <string name="enter_your_password_lgin">ادخل كلمه السر</string>
+    <string name="enter_your_name">ادخل الاسم</string>
+    <string name="enter_your_phone">ادخل رقم الهاتف</string>
+    <string name="enter_your_theuniversity">ادخل الجامعه </string>
+    <string name="enter_your_studygroup">ادخل الفرقه </string>
+    <string name="signup">تسجيل</string>
+    <string name="enter_your_email2">ادخل البريد الالكتروني </string>
+    <string name="reset_the_password_lgin">استرجاع كلمه السر</string>
+    <string name="sentscssfiley">تم الارسال بنجاج</string>
+    <string name="made">ميعادالتسليم</string>
+    <string name="pay">طريقه الدفع</string>
+    <string name="newwork">عمل جديد</string>
+    <string name="number_reg">رقم القيد</string>
+    <string name="password">الرقم السري</string>
+    <string name="subject">الماده</string>
+    <string name="file">ملف التصويف</string>
+    <string name="count_page">عدد الصفح</string>
+    <string name="count_words">عدد الكلمات</string>
+    <string name="data_receved">تاريخ الاستلام</string>
+    <string name="notes">ملحوظات</string>
+    <string name="price">تكلفه</string>
+    <string name="send">ارسال</string>
+    <string name="worinng">عند الضغط علي زر طريقه الدفع قد يتطلب منك ارسال او تحديد او رفع ايصال الدفع الذي استلمته عند التحويل او الدفع</string>
+
+    <string name="no_recust">لايوجد اي طلبات قمت بارسالها</string>
+    <string name="cointuo">متابعه الاعمال</string>
+    <string name="finshe_work">اعمال منتهيه</string>
+    <string name="Sign_out">تسجيل الخروج</string>
+    <string name="massge">جاري مطابقه الحساب بقاعده البيانات</string>
+    <string name="paye">دفع</string>
+    <string name="more">ازاله</string>
+    <string name="enter_problem">ادخل المشكله</string>
+    <string name="send_problem">ارسال المشكله</string>
+    <string name="sendscssfiley">تم الارسال بنجاح</string>
+</resources>

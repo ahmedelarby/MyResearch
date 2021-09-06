@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/_2sdp"
+    android:layout_marginStart="@dimen/_2sdp"
+    android:layout_marginEnd="@dimen/_2sdp"
+    android:layout_marginBottom="@dimen/_2sdp"
+    android:elevation="@dimen/_15sdp"
+    app:cardCornerRadius="@dimen/_20sdp"
+    android:backgroundTint="#102333"
+    android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_15sdp"
+        android:id="@+id/one"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#F8F4F4"
+        android:id="@+id/tow"
+app:layout_constraintTop_toBottomOf="@id/one"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#FFFEFE"
+        android:id="@+id/three"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/tow"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pay"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#FDFDFD"
+        android:id="@+id/fore"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/three"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" subject"
+        android:id="@+id/five"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/fore"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="received date"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#FFFCFC"
+        android:id="@+id/six"
+        android:layout_marginStart="@dimen/_10sdp"
+app:layout_constraintTop_toBottomOf="@id/five"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+<LinearLayout
+    app:layout_constraintTop_toBottomOf="@id/six"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="@dimen/_10sdp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_marginBottom="@dimen/_10sdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+    <Button
+        android:background="@drawable/itembtnrec"
+        android:id="@+id/pay_last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paye"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:background="@drawable/itembtnrec"
+        android:id="@+id/more"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+
+        android:text="@string/more"
+         />
+
+
+
+</LinearLayout>
+
+
+   <ProgressBar
+       android:visibility="gone"
+       android:layout_width="@dimen/_60sdp"
+       android:layout_height="@dimen/_60sdp"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       android:id="@+id/proshow"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

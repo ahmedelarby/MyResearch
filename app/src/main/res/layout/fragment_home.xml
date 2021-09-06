@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <Button
+        android:id="@+id/new_work"
+        android:text="@string/newwork"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/mog"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_130sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fllowo_work"
+        android:text="@string/cointuo"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/mog"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/new_work" />
+
+    <Button
+        android:id="@+id/finshe_work"
+        android:text="@string/finshe_work"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/mog"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fllowo_work" />
+
+
+
+    <Button
+        android:id="@+id/SignOut"
+        android:text="@string/Sign_out"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="#1D4D97"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/_3sdp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

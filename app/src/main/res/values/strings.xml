@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyResearch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your password</string>
+    <string name="forget_password">forget password...?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_new_account">Create new Account...?</string>
+    <string name="enter_your_password_lgin">Enter Your password</string>
+    <string name="enter_your_name">Enter Your name</string>
+    <string name="enter_your_phone">Enter Your phone</string>
+    <string name="enter_your_theuniversity">Enter Your TheUniversity</string>
+    <string name="enter_your_studygroup">Enter Your studyGroup</string>
+    <string name="signup">SignUp</string>
+    <string name="enter_your_email2">enter your email</string>
+    <string name="reset_the_password_lgin">Reset the password</string>
+    <string name="sentscssfiley">sent successfully</string>
+    <string name="made">delivery date</string>
+    <string name="pay">payment method</string>
+    <string name="worinng">When you click on the payment method, you are required to upload the payment receipt that you received at the time of payment</string>
+    <string name="newwork">new work</string>
+    <string name="number_reg">registration number </string>
+    <string name="password">password</string>
+    <string name="subject">subject</string>
+    <string name="file">drafting file</string>
+    <string name="count_page">pages count</string>
+    <string name="count_words">words count</string>
+    <string name="data_receved">received date</string>
+    <string name="notes">notes</string>
+    <string name="price">the price</string>
+    <string name="send">send</string>
+    <string name="no_recust">there are no request that you have sent yet!!</string>
+    <string name="cointuo">continuous works</string>
+    <string name="finshe_work">finished works</string>
+    <string name="Sign_out">log out</string>
+    <string name="massge">the account is being matched to the database</string>
+    <string name="paye">payment</string>
+    <string name="more">Remove</string>
+    <string name="enter_problem">enter the problem </string>
+    <string name="send_problem">send the problem </string>
+    <string name="sendscssfiley">sent successfully</string>
+</resources>
